@@ -59,10 +59,10 @@ The game can be customized by editing variables and values:
 - Additional features could be added like sound effects, difficulty levels, high score tracking etc.
 
 ## Demo 🎥
-
-![Hit_Miss-GoogleChrome2024-03-0217-40-31-ezgif com-video-to-gif-converter (1)](https://ibrahim-naseef.github.io/Hit-Miss-Game/)
-
+![Hit_Miss-GoogleChrome2024-03-0217-40-31-ezgif com-video-to-gif-converter (1)](https://github.com/Ibrahim-Naseef/Hit-Miss-Game/assets/156147657/2ba10e14-11b4-44d6-bd31-e59e3f726ac0)
 
 
-## Here is a link to a live demo: [Hit/Miss Game Demo](https://example.com) 
+
+
+## Here is a link to a live demo: [Hit/Miss Game Demo](https://ibrahim-naseef.github.io/Hit-Miss-Game/)
 
