@@ -92,3 +92,32 @@ margin-right: 5%;
   cursor: pointer;
   background-color: rgb(60, 82, 16);
 }
+
+
+@media (max-width:600px) {
+  .tpanel{
+    height: 70px;
+    padding: 0;
+  }
+  .elem{
+    font-size: 12px;
+    margin-left: 12px;
+    justify-content: space-evenly;
+  }
+
+  h2{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .box {
+    font-weight: 700 ;
+    color: rgb(0, 0, 0);
+    padding: 4px 4px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .bpanel{
+    height: 40rem;
+  }
+}

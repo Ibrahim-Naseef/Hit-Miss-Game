@@ -26,21 +26,30 @@ function runTimer() {
       document.querySelector("#timer").textContent = timer;
     } else {
       clearInterval();
-      document.querySelector(".bpanel").innerHTML = `<h1>GAME OVER</h1>\n<p>You have scored ${score} points</p>`;
-
+      document.querySelector(
+        ".bpanel"
+      ).innerHTML = `<h1>GAME OVER</h1>\n<p>You have scored ${score} points</p>`;
     }
   }, 1000);
 }
 
 document.querySelector(".bpanel").addEventListener("click", function (dets) {
-    var clickedNum = Number(dets.target.textContent);
-    if(clickedNum == rn){
-        incScr();
-        makeBubble();
-        getNewHit();
+  var clickedNum = Number(dets.target.textContent);
 
-    }
+  if (clickedNum == rn) {
+    incScr();
+    makeBubble();
+    getNewHit();
+    playSoundEffect("hit.mp3");
+  } else {
+    playSoundEffect("miss.mp3");
+  }
 });
+
+function playSoundEffect(soundFile) {
+  var audio = new Audio(soundFile);
+  audio.play();
+}
 
 getNewHit();
 runTimer();
