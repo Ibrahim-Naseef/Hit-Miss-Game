@@ -60,7 +60,7 @@ The game can be customized by editing variables and values:
 
 ## Demo 🎥
 
-![Hit_Miss-GoogleChrome2024-03-0217-40-31-ezgif com-video-to-gif-converter (1)](https://github.com/Ibrahim-Naseef/Hit-Miss-Game/assets/156147657/5d1b8e48-a410-4a62-8498-ff46a2e8eb8a)
+![Hit_Miss-GoogleChrome2024-03-0217-40-31-ezgif com-video-to-gif-converter (1)](https://ibrahim-naseef.github.io/Hit-Miss-Game/)
 
 
 
